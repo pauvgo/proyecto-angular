@@ -9,7 +9,7 @@ const routes: Routes = [
  {path: "inicio", component: InicioComponent},
  {path: "acerca", component: AcercaComponent},
  {path: "contacto", component: ContactoComponent},
- {path: "", redirectTo: "/inicio", pathMatch: "full"},
+ {path: "", redirectTo: "/inicio", pathMatch: "gitnfull"},
  {path:"**", component: ContactoComponent }
 ]
 
